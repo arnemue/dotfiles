@@ -28,3 +28,6 @@ packages:
 - name: hashicorp/terraform@v1.4.6
 - name: casey/just@1.13.0
 - name: charmbracelet/glow@v1.5.0
+- name: Wilfred/difftastic@0.47.0
+- name: helm/helm@v3.12.0
+- name: sharkdp/bat@v0.23.0
