@@ -1,0 +1,245 @@
+{
+	"workbench.colorTheme": "Catppuccin Frappé",
+	"update.mode": "start",
+	"update.enableWindowsBackgroundUpdates": false,
+	"workbench.localHistory.enabled": false,
+	"editor.minimap.enabled": false,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"extensions.ignoreRecommendations": true,
+	"python.analysis.extraPaths": [],
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff",
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit",
+			"source.fixAll": "explicit"
+		}
+	},
+	"editor.formatOnSave": true,
+	"python.formatting.provider": "none",
+	"autoDocstring.docstringFormat": "numpy",
+	"redhat.telemetry.enabled": false,
+	"git.suggestSmartCommit": false,
+	"explorer.compactFolders": false,
+	"remote.autoForwardPortsSource": "hybrid",
+	"workbench.layoutControl.enabled": false,
+	"workbench.activityBar.location": "hidden",
+	"window.menuBarVisibility": "compact",
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.leader": "<space>",
+	"breadcrumbs.enabled": false,
+	"editor.suggest.insertMode": "replace",
+	"editor.linkedEditing": true,
+	"zenMode.hideLineNumbers": false,
+	"editor.lineNumbers": "relative",
+	"vim.hlsearch": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		// NAVIGATION
+		// switch b/w buffers
+		{
+			"before": [
+				"<S-h>"
+			],
+			"commands": [
+				":bprevious"
+			]
+		},
+		{
+			"before": [
+				"<S-l>"
+			],
+			"commands": [
+				":bnext"
+			]
+		},
+		// splits
+		{
+			"before": [
+				"leader",
+				"v"
+			],
+			"commands": [
+				":vsplit"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"s"
+			],
+			"commands": [
+				":split"
+			]
+		},
+		// panes
+		{
+			"before": [
+				"leader",
+				"h"
+			],
+			"commands": [
+				"workbench.action.focusLeftGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"j"
+			],
+			"commands": [
+				"workbench.action.focusBelowGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"k"
+			],
+			"commands": [
+				"workbench.action.focusAboveGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"l"
+			],
+			"commands": [
+				"workbench.action.focusRightGroup"
+			]
+		},
+		// NICE TO HAVE
+		{
+			"before": [
+				"leader",
+				"w"
+			],
+			"commands": [
+				":w!"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"q"
+			],
+			"commands": [
+				":q!"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"x"
+			],
+			"commands": [
+				":x!"
+			]
+		},
+		{
+			"before": [
+				"[",
+				"d"
+			],
+			"commands": [
+				"editor.action.marker.prev"
+			]
+		},
+		{
+			"before": [
+				"]",
+				"d"
+			],
+			"commands": [
+				"editor.action.marker.next"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"c",
+				"a"
+			],
+			"commands": [
+				"editor.action.quickFix"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"f"
+			],
+			"commands": [
+				"workbench.action.quickOpen"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"p"
+			],
+			"commands": [
+				"editor.action.formatDocument"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"h"
+			],
+			"commands": [
+				"editor.action.showDefinitionPreviewHover"
+			]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		// Stay in visual mode while indenting
+		{
+			"before": [
+				"<"
+			],
+			"commands": [
+				"editor.action.outdentLines"
+			]
+		},
+		{
+			"before": [
+				">"
+			],
+			"commands": [
+				"editor.action.indentLines"
+			]
+		},
+		// Move selected lines while staying in visual mode
+		{
+			"before": [
+				"J"
+			],
+			"commands": [
+				"editor.action.moveLinesDownAction"
+			]
+		},
+		{
+			"before": [
+				"K"
+			],
+			"commands": [
+				"editor.action.moveLinesUpAction"
+			]
+		},
+		// toggle comment selection
+		{
+			"before": [
+				"leader",
+				"c"
+			],
+			"commands": [
+				"editor.action.commentLine"
+			]
+		}
+	],
+}

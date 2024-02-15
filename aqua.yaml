@@ -10,7 +10,7 @@ registries:
 - type: standard
   ref: v3.150.0 # renovate: depName=aquaproj/aqua-registry
 packages:
-- name: neovim/neovim@v0.9.1
+- name: neovim/neovim@v0.9.4
 - name: cli/cli@v2.29.0
 - name: ogham/exa@v0.10.1
 - name: jetpack-io/devbox@0.4.6
@@ -20,14 +20,19 @@ packages:
 - name: ClementTsang/bottom@0.8.0
 - name: sharkdp/fd@v8.7.0
 - name: kubernetes/kubectl@v1.27.1
-- name: derailed/k9s@v0.27.4
+- name: derailed/k9s@v0.31.7
 - name: stedolan/jq@jq-1.6
 - name: ahmetb/kubectx@v0.9.4
 - name: ahmetb/kubectx/kubens@v0.9.4
 - name: alexellis/k3sup@0.12.12
-- name: hashicorp/terraform@v1.4.6
+- name: hashicorp/terraform@v1.7.1
 - name: casey/just@1.13.0
 - name: charmbracelet/glow@v1.5.0
 - name: Wilfred/difftastic@0.47.0
-- name: helm/helm@v3.12.0
+- name: helm/helm@v3.13.3
 - name: sharkdp/bat@v0.23.0
+- name: Azure/kubelogin@v0.0.31
+- name: FiloSottile/age@v1.1.1
+- name: alexellis/arkade@0.9.27
+- name: nektos/act@v0.2.59
+- name: dagger/dagger@v0.9.8
